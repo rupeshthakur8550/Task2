@@ -1,0 +1,26 @@
+/* MainComponent.css */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .two-card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 40px;
+    box-sizing: border-box;
+  }
+  
+  /* Additional styling for the DataDisplayCard if needed */
+  

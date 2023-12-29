@@ -1,0 +1,39 @@
+/* FileUploadCard.css */
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #3d3939;
+    border-radius: 4px;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Optional: Style for the file input button */
+  input[type="file"] {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  /* Optional: Style for the file input button on hover */
+  input[type="file"]:hover {
+    background-color: #d9ebd9;
+  }
+  
